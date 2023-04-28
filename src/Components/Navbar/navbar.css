@@ -1,0 +1,180 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+    width: 96vw;
+    justify-content: space-between;
+    padding: 30px 35px;
+    position: fixed;
+    /* border: 2px solid red; */
+    background-color: white;
+    z-index: 100;
+}
+
+#links{
+    display: none;
+    position: fixed;
+    top: 13vh;
+    width: 100vw;
+    height: 88vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(230,218,206);
+    overflow-y: scroll;
+    z-index: 100000000;
+}
+
+#links ul{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+#links ul li{
+    color: black;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-1 h2{
+    font-size: 30px;
+}
+
+.nav-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 0.5vw;
+}
+
+.nav-1 span{
+    border: 8px solid blue;
+}
+
+.nav-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+div div ul{
+    display: flex;
+    gap: 4vw;
+}
+
+.nav-2 ul li{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.nav-2 a{
+    text-decoration: none;
+}
+
+.nav-3{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.l1{
+    border: 3px solid blue;
+    border-radius: 30px;
+    width: 2vw;
+}
+.l2{
+    border: 3px solid blue;
+    border-radius: 30px;
+    width: 4vw;
+}
+.l3{
+    display: flex;
+
+    border: 3px solid blue;
+    border-radius: 30px;
+    width: 2vw;
+}
+
+.nav-3:hover .l1{
+    width: 4vw;
+}
+
+.nav-3:hover .l3{
+    width: 4vw;
+}
+
+@media only screen and (max-width:1200px){
+    .nav-1 h2{
+        font-size: 25px;
+    }
+
+    .nav-2 ul a li{
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width:950px){
+    .nav-1 h2{
+        font-size: 20px;
+    }
+
+    .nav-2 ul a li{
+        font-size: 10px;
+    }
+    .nav{
+        width: 95vw;
+    }
+}
+@media only screen and (max-width:790px){
+    .nav-1 h2{
+        font-size: 19px;
+    }
+
+    .nav-2 ul a li{
+        font-size: 8.5px;
+    }
+
+    .nav{
+        width: 94vw;
+    }
+}
+@media only screen and (max-width:713px){
+
+    .nav{
+        width: 90vw;
+    }
+    .nav-2 ul{
+        display: none;
+    }
+
+    /* #links{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } */
+
+    .nav-3{
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        justify-content: center;
+        gap: 5px;
+    }
+}
+@media only screen and (max-width:450px){
+
+    .nav{
+        width: 88vw;
+    }
+}
+@media only screen and (max-width:350px){
+
+    .nav{
+        width: 86vw;
+    }
+}
