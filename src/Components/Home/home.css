@@ -221,5 +221,14 @@ body{
 @media only screen and (max-width:450px){
     .name{
         font-size: 25px;
+        width: 85vw;
+    display: flex;
+    justify-content: center;
+    }
+    .chem{
+        /* font-size: 25px; */
+        width: 85vw;
+    display: flex;
+    justify-content: center;
     }
 }

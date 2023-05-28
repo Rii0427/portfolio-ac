@@ -113,6 +113,7 @@
     .pro-left{
         width: 50vw;
         padding: 10px 0;
+        gap: 4px;
     }
 
     .pro-left-2{
@@ -125,5 +126,12 @@
 
     .pro-right img{
         width: 50vw;
+    }
+    .left-1 h1{
+        font-size: 20px;
+    }
+
+    .left-1 p{
+        font-size: 12px;
     }
 }

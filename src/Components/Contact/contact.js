@@ -65,42 +65,42 @@ const Contact = () => {
           <p>IIT ROORKEE</p>
           <p>Email - antra_c@ch.iitr.ac.in</p>
       </div>
-      {/* <div className="contact-2">
-        <form>
-          <div className="form-control">
-            <label>
-              Name<span>*</span>
-            </label>
-            <input
-              type="text"
-              name="name"
-              value={data.name}
-              onChange={InputEvent}
-              required="true"
-            />
-            {errors.name && errors.name.type === "required" && (
-              <p className="errorName">Name is required.</p>
-            )}
-          </div>
-          <div className="form-control">
-            <label>
-              Email<span>*</span>
-            </label>
-            <input
-              type="text"
-              name="email"
-              value={data.email}
-              onChange={InputEvent}
-              required="true"
-              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
-            />
-            {errors.email && errors.email.type === "required" && (
-              <p className="errorMsg">Email is required.</p>
-            )}
-            {errors.email && errors.email.type === "pattern" && (
-              <p className="errorMsg">Email is not valid.</p>
-            )}
-          </div>
+        {/* <div className="contact-2">
+          <form>
+            <div className="form-control">
+              <label>
+                Name<span>*</span>
+              </label>
+              <input
+                type="text"
+                name="name"
+                value={data.name}
+                onChange={InputEvent}
+                required="true"
+              />
+              {errors.name && errors.name.type === "required" && (
+                <p className="errorName">Name is required.</p>
+              )}
+            </div>
+            <div className="form-control">
+              <label>
+                Email<span>*</span>
+              </label>
+              <input
+                type="text"
+                name="email"
+                value={data.email}
+                onChange={InputEvent}
+                required="true"
+                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+              />
+              {errors.email && errors.email.type === "required" && (
+                <p className="errorMsg">Email is required.</p>
+              )}
+              {errors.email && errors.email.type === "pattern" && (
+                <p className="errorMsg">Email is not valid.</p>
+              )}
+            </div>
           <div className="form-control">
             <label>Subject</label>
             <input 

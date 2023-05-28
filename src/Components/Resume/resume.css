@@ -108,6 +108,7 @@ a{
     .resume-3{
         flex-direction: column;
         gap: 0;
+        width: 60vw;
     }
 }
 
@@ -118,9 +119,14 @@ a{
     }
     .resume-1{
         width: 50%;
+        gap: 20px;
     }
 
     .degree{
         font-size: 25px;
+    }
+
+    h1{
+        font-size: 22px;
     }
 }
