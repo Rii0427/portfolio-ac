@@ -1,56 +1,56 @@
 import React, { useRef,useState } from "react";
 import "./contact.css";
-import { useForm } from "react-hook-form";
+// import { useForm } from "react-hook-form";
 // import emailjs, { init } from "@emailjs/browser";
-import axios from "axios"
+// import axios from "axios"
 
-const baseURL ="https://console.firebase.google.com/u/0/project/portfolio-c92e0/database/portfolio-c92e0-default-rtdb/data/~2F";
+// const baseURL ="https://console.firebase.google.com/u/0/project/portfolio-c92e0/database/portfolio-c92e0-default-rtdb/data/~2F";
 
 const Contact = () => {
 //   init("template_yjnkr41");
 //   const form = useRef();
 
-  const[data,setData]=useState({
-    name:"",
-    email:"",
-    subject:"",
-    message:"",
-  })
+  // const[data,setData]=useState({
+  //   name:"",
+  //   email:"",
+  //   subject:"",
+  //   message:"",
+  // })
 
-  const InputEvent = (event) => {
-    const {name,value} = event.target
+  // const InputEvent = (event) => {
+  //   const {name,value} = event.target
 
-    setData((preVal) => {
-      return{
-        ...preVal,
-        [name]:value,
+  //   setData((preVal) => {
+  //     return{
+  //       ...preVal,
+  //       [name]:value,
       
-      }
-    })
-  }
+  //     }
+  //   })
+  // }
 
-  const formSubmit = (event)=> {
-    event.preventDefault()
-    // emailjs.sendForm("SERVICE_D", "TEMPLAE_ID", form.current, "USER_ID")
-    .then(
-      (result) => {
-        alert(
-          `My Name is ${data.name}.`
-          `My email is ${data.email}.`
-          `My subject is ${data.subject}.`
-          `My message is ${data.message}.`
-          );
-        console.log(result.text);
-      },
-      (error) => {
-        console.log(error.text);
-      }
-    );
-  }
+  // const formSubmit = (event)=> {
+  //   event.preventDefault()
+  //   // emailjs.sendForm("SERVICE_D", "TEMPLAE_ID", form.current, "USER_ID")
+  //   .then(
+  //     (result) => {
+  //       alert(
+  //         `My Name is ${data.name}.`
+  //         `My email is ${data.email}.`
+  //         `My subject is ${data.subject}.`
+  //         `My message is ${data.message}.`
+  //         );
+  //       console.log(result.text);
+  //     },
+  //     (error) => {
+  //       console.log(error.text);
+  //     }
+  //   );
+  // }
 
-  const {
-    formState: { errors },
-  } = useForm();
+  // const {
+  //   formState: { errors },
+  // } = useForm();
 
   return (
     <div className="contact">

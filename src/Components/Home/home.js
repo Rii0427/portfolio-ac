@@ -1,12 +1,12 @@
 import React from "react";
-import Navbar from "../Navbar/navbar";
+// import Navbar from "../Navbar/navbar";
 import Footer from "../Footer/footer";
 import "./home.css";
 import Antra from "../Images/AntraC.jpg";
-import { FaFacebookF } from "react-icons/fa";
-import { FaTwitter } from "react-icons/fa";
+// import { FaFacebookF } from "react-icons/fa";
+// import { FaTwitter } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
+// import { FaInstagram } from "react-icons/fa";
 import {Link } from 'react-router-dom'
 // import Footer from '../Footer/footer'
 
@@ -26,7 +26,7 @@ function Home() {
               </div>
             </div>
             <div className="home-card-bottom">
-              <a href="">
+              <a href="https://www.linkedin.com/in/antra-choubey-22b37027a/">
                 <FaLinkedinIn />
               </a>
               {/* <a href="">

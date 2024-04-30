@@ -1,6 +1,6 @@
 import React from 'react'
 import './resume.css'
-import cv from '../CV/CVANTRA-1.pdf'
+// import cv from '../CV/CVANTRA-1.pdf'
 import Footer from '../Footer/footer'
 
 const resume = [
