@@ -4,19 +4,19 @@ import Footer from '../Footer/footer'
 
 const awards = [
   {
-    "award":"Selected for PMRF via lateral entry, May 2022"
+    "award":"PMRF for Doctoral degree at IITR, 2021-2025."
   },
   {
-    "award":"Recieved MHRD fellowship for Master of Technology at IIT BHU, 2019-2021"
+    "award":"Best Paper Award at IICHE-CHEMCON 2023."
   },
   {
-    "award":"Secured 9th rank in the state merit list of Madhya Pradesh in intermediate, 2013"
+    "award":"MHRD fellowship for Master of Technology at IIT BHU, 2019-2021"
   },
   {
-    "award":"Awarded certificate of excellence for securing full marks in 'Physics' in intermediate, 2013"
+    "award":"Secured 9th rank in the state merit list of Madhya Pradesh in intermediate, 2013."
   },
   {
-    "award":"Hosted International conference ChemTSF-2022 at IIT Roorkee"
+    "award":"Awarded certificate of excellence for securing full marks in Physics in intermediate, 2013."
   },
 ]
 

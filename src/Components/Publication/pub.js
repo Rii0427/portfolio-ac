@@ -4,12 +4,18 @@ import Footer from "../Footer/footer";
 
 const pub = [
   {
-    book: "Choubey, A., Yadav, A. “Recent progress in emerging nanomaterials for supercapacitor applications” (under preparation)",
+    book: `Choubey A, Yadav A. “MXene and transition metal chalcogenides-based 2D nanomaterials for next-generation supercapacitors” Journal of Energy Storage, 79 (2024) 110131.`,
+  },
+  {
+    book: `Choubey A, Yadav A. “Unveiling electrochemical charge storage in nanopebbles of Ni-Mn selenide embedded in delaminated MXene for hybrid asymmetric supercapacitor”.(Under review)`,
   },
 ];
 const conf = [
   {
-    con: "Presented poster on the topic, “Transition metal sulfides as electrode material for asymmetric supercapacitor” IIT Roorkee, 2022 ",
+    con: `Choubey A, Yadav A. “Bimetallic transition metal chalcogenides as electrode material for supercapacitor application” Indian Institute of Chemical Engineers-CHEMCON, HIT, Kolkata, Dec. 27-30, 2023.`,
+  },
+  {
+    con: `Choubey A, Yadav A, “Bimetallic Transition Metal Selenide-MXene Nanocomposite for Supercapacitor Application” The Electrochemical Society, 245th meeting 2024, San Fransisco, US.`,
   },
 ];
 
