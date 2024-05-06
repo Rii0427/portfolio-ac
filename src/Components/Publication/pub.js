@@ -7,7 +7,7 @@ const pub = [
     book: `Choubey A, Yadav A. “MXene and transition metal chalcogenides-based 2D nanomaterials for next-generation supercapacitors” Journal of Energy Storage, 79 (2024) 110131.`,
   },
   {
-    book: `Choubey A, Yadav A. “Unveiling electrochemical charge storage in nanopebbles of Ni-Mn selenide embedded in delaminated MXene for hybrid asymmetric supercapacitor”.(Under review)`,
+    book: `Choubey A, Yadav A. “Selenide nanoparticles incorporated within multilayered MXene for asymmetric supercapacitor(submitted).`,
   },
 ];
 const conf = [
